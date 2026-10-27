@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box
 }
@@ -1962,4 +1963,41 @@ h1 i {
   .letter-stage .next-link {
     margin: 30px auto 0;
   }
+}
+
+/* FIX: Keep each page's background color on mobile */
+html {
+  min-height: 100%;
+  background-color: #f4eee9;
+}
+
+body.login {
+  background: #ead7dc !important;
+}
+
+body.cinema {
+  background:
+    radial-gradient(ellipse at 50% 42%, rgba(126, 66, 105, 0.42), transparent 48%),
+    linear-gradient(145deg, #170f25 0%, #29152e 48%, #100d1b 100%) !important;
+}
+
+body.gift-page,
+body.letter-page {
+  background: #eee1dc !important;
+}
+
+body.memory-page {
+  background: #f3eee6 !important;
+}
+
+body.story-page {
+  background: #21191d !important;
+}
+
+body.secret-page {
+  background: #f2e6e0 !important;
+}
+
+body.final-page {
+  background: radial-gradient(circle at 50% 35%, #fff5f2, #edd6dc) !important;
 }
